@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled8.dir/main.cpp.o  -o untitled8 /usr/lib/x86_64-linux-gnu/libcpprest.so.2.10 -lpthread /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
