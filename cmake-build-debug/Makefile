@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled8
+# Target rules for targets named PdfToJsonService
 
 # Build rule for target.
-untitled8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled8
-.PHONY : untitled8
+PdfToJsonService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PdfToJsonService
+.PHONY : PdfToJsonService
 
 # fast build rule for target.
-untitled8/fast:
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/build
-.PHONY : untitled8/fast
+PdfToJsonService/fast:
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/build
+.PHONY : PdfToJsonService/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... untitled8"
+	@echo "... PdfToJsonService"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

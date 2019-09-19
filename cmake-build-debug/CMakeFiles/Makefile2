@@ -50,10 +50,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/bill/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService
 CMAKE_BINARY_DIR = /home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled8.dir
+# Target rules for target CMakeFiles/PdfToJsonService.dir
 
 # All Build rule for target.
-CMakeFiles/untitled8.dir/all:
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/depend
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target untitled8"
-.PHONY : CMakeFiles/untitled8.dir/all
+CMakeFiles/PdfToJsonService.dir/all:
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/depend
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PdfToJsonService"
+.PHONY : CMakeFiles/PdfToJsonService.dir/all
 
 # Include target in all.
-all: CMakeFiles/untitled8.dir/all
+all: CMakeFiles/PdfToJsonService.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled8.dir/rule: cmake_check_build_system
+CMakeFiles/PdfToJsonService.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled8.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PdfToJsonService.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled8.dir/rule
+.PHONY : CMakeFiles/PdfToJsonService.dir/rule
 
 # Convenience name for target.
-untitled8: CMakeFiles/untitled8.dir/rule
+PdfToJsonService: CMakeFiles/PdfToJsonService.dir/rule
 
-.PHONY : untitled8
-
-# clean rule for target.
-CMakeFiles/untitled8.dir/clean:
-	$(MAKE) -f CMakeFiles/untitled8.dir/build.make CMakeFiles/untitled8.dir/clean
-.PHONY : CMakeFiles/untitled8.dir/clean
+.PHONY : PdfToJsonService
 
 # clean rule for target.
-clean: CMakeFiles/untitled8.dir/clean
+CMakeFiles/PdfToJsonService.dir/clean:
+	$(MAKE) -f CMakeFiles/PdfToJsonService.dir/build.make CMakeFiles/PdfToJsonService.dir/clean
+.PHONY : CMakeFiles/PdfToJsonService.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PdfToJsonService.dir/clean
 
 .PHONY : clean
 

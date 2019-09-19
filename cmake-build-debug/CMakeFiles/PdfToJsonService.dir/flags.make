@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS
 
-CXX_INCLUDES = -I/usr/lib/x86_64-linux-gnu 
+CXX_INCLUDES = -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/src -I/usr/lib/x86_64-linux-gnu -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/xpdf -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/splash -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/goo -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/freetype.win32/lib -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/freetype.win32/include -I/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/fofi 
 

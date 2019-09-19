@@ -17,7 +17,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src"
   "/usr/lib/x86_64-linux-gnu"
+  "../xpdf"
+  "../splash"
+  "../goo"
+  "../freetype.win32/lib"
+  "../freetype.win32/include"
+  "../fofi"
   )
 
 # Targets to which this target links.

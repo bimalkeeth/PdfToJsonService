@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled8">
-				<Option output="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/untitled8" prefix_auto="0" extension_auto="0"/>
+			<Target title="PdfToJsonService">
+				<Option output="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/PdfToJsonService" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -37,7 +37,14 @@
 					<Add option="-DCPPREST_FORCE_HTTP_CLIENT_ASIO"/>
 					<Add option="-DCPPREST_FORCE_HTTP_LISTENER_ASIO"/>
 					<Add option="-DCPPREST_NO_SSL_LEAK_SUPPRESS"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/src"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/xpdf"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/splash"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/goo"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/freetype.win32/lib"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/freetype.win32/include"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/fofi"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -48,14 +55,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled8"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 PdfToJsonService"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled8/fast">
-				<Option output="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/untitled8" prefix_auto="0" extension_auto="0"/>
+			<Target title="PdfToJsonService/fast">
+				<Option output="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/PdfToJsonService" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -64,7 +71,14 @@
 					<Add option="-DCPPREST_FORCE_HTTP_CLIENT_ASIO"/>
 					<Add option="-DCPPREST_FORCE_HTTP_LISTENER_ASIO"/>
 					<Add option="-DCPPREST_NO_SSL_LEAK_SUPPRESS"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/src"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/xpdf"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/splash"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/goo"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/freetype.win32/lib"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/freetype.win32/include"/>
+					<Add directory="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/fofi"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -75,7 +89,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled8/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 PdfToJsonService/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -93,7 +107,7 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/main.cpp">
-			<Option target="untitled8"/>
+			<Option target="PdfToJsonService"/>
 		</Unit>
 		<Unit filename="/home/bill/CLionProjects/cexercise/Cexcecise/PdfToJsonService/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

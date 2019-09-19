@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS
 
-CXX_INCLUDES = -I/usr/lib/x86_64-linux-gnu 
+CXX_INCLUDES = -I/usr/lib/x86_64-linux-gnu -I/fofi -I/freetype.win32 -I/goo -I/splash -I/xpdf -I/src 
 
